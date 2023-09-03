@@ -1,0 +1,7 @@
+#summary
+
+1. Dalam OOP dart kita dapat memanggil method dalam class secara default(langsung) saat pembuatan object dengan menggunakan constructor yang ditulis seperti method biasa tetapi nama methodnya sama dengan nama class. Constructor dapat menerima parameter tetapi tidak memiliki nilai return.
+
+2. Dalam OOP dart juga terdapat konsep inheritance dan interface yang bertujuan untuk memanfaatkan kembali class yang sudah ada beserta property dan methodnya. Perbedaan paling mencolok diantara dua konsep ini yaitu adalah inheritance menggunakan perintah extends saat pembuatan class turunan dan tidak wajib meng-override semua method yang ada pada class induknya (super class) sedangkan interface menggunakan perintah implements dan mewajibkan seluruh method yang ada pada superclass dioverride di kelas turunannya.
+
+3. Pada class terdapat tipe data generics yang berfungsi menerima data dengan tipe apa saja. Generics ditulis setelah nama class atau fungsi dengan diberi tanda <> contohnya seperti '<T>'. Generics dapat digunakan di seluruh class dan fungsi. Namun ketika menggunakan tipe data generics maka saat pembuatan object atau pemanggilan fungsi harus diinisialisasikan dulu tipe data apa yang akan digunakan dengan memberi tanda '<Tipe Data>' yang berisikan nama tipe data dan ditulis setelah nama class/fungsi.
