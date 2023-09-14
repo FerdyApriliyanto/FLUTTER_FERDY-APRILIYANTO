@@ -60,9 +60,9 @@ class Home extends StatelessWidget {
                 decoration: BoxDecoration(
                     color: Colors.black,
                     borderRadius: BorderRadius.circular(100)),
-                child: const Center(child: Text('T'))),
-            title: const Text('Name'),
-            subtitle: const Text('Phone'),
+                child: Center(child: Text(contacts[index].name[0]))),
+            title: Text(contacts[index].name),
+            subtitle: Text(contacts[index].phone),
           );
         },
       ),
