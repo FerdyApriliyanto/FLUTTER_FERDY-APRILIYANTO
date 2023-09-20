@@ -20,14 +20,14 @@ class _MyFormWidgetState extends State<MyFormWidget> {
       child: Column(
         children: [
           TextFormField(
-            ///
+            //
           ),
           TextFormField(
-            ///
+            //
           ),
           ElevatedButton(
             onPressed: () {
-              ///
+              //
             },
             child: Text('Submit'),
           ),
@@ -66,7 +66,7 @@ class _MyTextFieldState extends State<MyTextField> {
           hintText: 'Type your name here ....',
         ),
         onChanged: (text) {
-          ///
+          //
         },
       ),
   }
