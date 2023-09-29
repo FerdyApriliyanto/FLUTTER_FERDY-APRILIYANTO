@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:soal_12/widgets/bottom_sheet_widget.dart';
+import 'package:soal_12/widgets/drawer_widget.dart';
 
 class GalleryScreen extends StatelessWidget {
   const GalleryScreen({super.key});
@@ -21,6 +22,7 @@ class GalleryScreen extends StatelessWidget {
         backgroundColor: Colors.black,
         foregroundColor: Colors.white,
       ),
+      drawer: const DrawerWidget(),
       body: ListView(
         children: [
           Container(
