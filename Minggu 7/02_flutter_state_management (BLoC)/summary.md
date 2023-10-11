@@ -34,7 +34,7 @@ final class NameValidatorFailed extends NameValidatorState {
 }
 ```
 
-2. Class event dalam BLoC dilambangkan menggunakan class dan akan menampung data inputtan dari UI melalui constructor. Ketika kelas event ini dipanggil di UI, maka BLoC akan menjalankan fungsi berdasarkan event yang dipanggil dan kita dapat menggunakan value dari constructor event yang dipanggil menggunakan even.namaProperty.  
+2. Event dalam BLoC dilambangkan menggunakan class dan akan menampung data inputtan dari UI melalui constructor. Ketika kelas event ini dipanggil di UI, maka BLoC akan menjalankan fungsi berdasarkan event yang dipanggil dan kita dapat menggunakan value dari constructor event yang dipanggil menggunakan event.namaProperty.
 
 - Berikut contoh class event dari BLoC yang bertugas memvalidasi inputtan TextField nama
 
