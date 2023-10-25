@@ -1,0 +1,6 @@
+Template Prompt: You will be provided with statements, and your task is to convert them to standard English.
+
+Input: My friend is like playing basketball, but i like play game more.
+Output: My friend enjoys playing basketball, but i prefer playing games.
+
+Link Google Docs: https://docs.google.com/document/d/1ybpypJY55exLZRJELqEgYyoyXh3IZ07Q1P9UX0bGeiY/edit?usp=sharing
